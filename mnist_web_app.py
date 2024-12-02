@@ -92,24 +92,8 @@ if uploaded_file:
             st.error(f"An error occurred during prediction: {e}")
 else:
     st.warning("Waiting for image uploading...")
-    # HTML and CSS for centering the image and resizing it
-    st.markdown(
-        """
-        <style>
-        .centered-image {
-            display: block;
-            margin-left: 20%;
-            margin-right: auto;
-            width: 10%; /* Adjust size here (e.g., 50% of the width) */
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
     
-    # Display the image
-    st.markdown('<img src="smiley.gif" class="centered-image">', unsafe_allow_html=True)
-    # st.image("smiley.gif")
+    st.image("smiley.gif", caption="Smiley GIF", width=300)
     # # Embed video with autoplay using HTML
     # video_path = "jass_dance.mp4"  # Replace with your video file path
     # video_html = f"""
