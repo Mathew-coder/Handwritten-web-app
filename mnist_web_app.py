@@ -93,7 +93,7 @@ if uploaded_file:
 else:
     st.warning("Waiting for image uploading...")
     
-    st.image("smiley.gif", caption="Smiley GIF", width=300)
+    st.image("smiley.gif", width=700)
     # # Embed video with autoplay using HTML
     # video_path = "jass_dance.mp4"  # Replace with your video file path
     # video_html = f"""
