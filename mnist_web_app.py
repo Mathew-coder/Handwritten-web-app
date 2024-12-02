@@ -98,9 +98,9 @@ else:
         <style>
         .centered-image {
             display: block;
-            margin-left: auto;
+            margin-left: 20%;
             margin-right: auto;
-            width: 50%; /* Adjust size here (e.g., 50% of the width) */
+            width: 10%; /* Adjust size here (e.g., 50% of the width) */
         }
         </style>
         """,
