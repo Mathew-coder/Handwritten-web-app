@@ -92,7 +92,7 @@ if uploaded_file:
             st.error(f"An error occurred during prediction: {e}")
 else:
     st.warning("Waiting for image uploading...")
-    st.image("jassgif.gif")
+    #st.image("jassgif.gif")
     # # Embed video with autoplay using HTML
     # video_path = "jass_dance.mp4"  # Replace with your video file path
     # video_html = f"""
